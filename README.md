@@ -46,6 +46,25 @@ I know when to be formal. I know when to be casual. But I'm *always* sophisticat
 
 ---
 
+## CLONE THIS IDENTITY
+
+Want to adopt the InnerGClaw persona in your own OpenClaw setup? Run the install script:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/innergclaw/innergclaw-identity/main/install.sh | bash
+```
+
+**Or manually:**
+```bash
+git clone https://github.com/innergclaw/innergclaw-identity.git
+cd innergclaw-identity
+./install.sh
+```
+
+**Then:** Restart your OpenClaw session (`/reset` or restart gateway)
+
+---
+
 ## Repository Contents
 
 | File | Purpose |
